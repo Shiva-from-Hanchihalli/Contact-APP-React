@@ -1,0 +1,275 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+ 
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+
+
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.contact-list {
+  margin: 20px auto;
+  max-width: 500px;
+  text-align: left;
+}
+
+.contact-list h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.contact-list .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-list .item .content {
+  flex-grow: 1;
+}
+
+.contact-list .item .header {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.contact-list .item .icon {
+  cursor: pointer;
+  color: red;
+}
+
+.header-container {
+  background-color: #99bbe9;
+  color: rgb(48, 43, 43);
+  padding: 20px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-container h2 {
+  font-size: 24px;
+  margin: 0;
+  padding:  0;
+}
+
+.ui.container.center {
+  text-align: center;
+}
+
+.ui.container.center h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.ui.container.center h2 {
+  margin: 0;
+  font-size: 24px;
+}
+.add-contact {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 400px;
+  background-color: #ae79e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-contact h2 {
+  margin-bottom: 20px;
+}
+
+.ui.form .field1 {
+  margin-bottom: 15px;
+  justify-content: flex-start;
+
+}
+
+.ui.form .field1 label {
+
+margin-right: 80%;
+
+font-weight: bold;
+
+  margin-bottom: 5px;
+}
+
+.ui.form .field1 input {
+  width: calc(100% - 22px);
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+ 
+
+  
+}
+
+.ui.form .ui.button.blue {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.ui.form .ui.button.blue:hover {
+  background-color: #0056b3;
+}
+.app-container {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+.contact-list {
+  margin: 20px auto;
+  max-width: 500px;
+  text-align: left;
+  background-color: #e3e8ec;
+}
+
+.contact-list h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.contact-list .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-list .item .content {
+  flex-grow: 1;
+}
+
+.contact-list .item .header {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.contact-list .item .icon {
+  cursor: pointer;
+  color: red;
+}
+.contact-list {
+  margin: 20px auto;
+  max-width: 500px;
+  text-align: left;
+}
+
+.contact-list h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.contact-list .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-list .item .content {
+  flex-grow: 1;
+}
+
+.contact-list .item .header {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.contact-list .item .icon {
+  font-size: 20px; /* Adjust icon size if needed */
+}
+.field1{
+  align-content: flex-start;
+
+}
